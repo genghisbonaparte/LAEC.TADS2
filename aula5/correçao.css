@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    backgroud-color: white;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #333;
+    height: 100vh;
+    position: relative;
+
+}
+
+.container div{
+    border: 1px solid #333;
+    width: 40%;
+    height: 40%;
+    position: absolute;
+}
+
+.container .box1{
+    top:5%;
+    right:5%;
+
+}
+.container .box2{
+    bottom:5%;
+    left:5%;
+
+}
+.container .box3{
+    top:5%;
+    left:5%;
+
+}
+.container .box4{
+    bottom:5%;
+    right:5%;
+
+}
+
+.ball {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius:10px;
+}
+.square {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    border-radius:25px;
+}
+
+.container .box1 .box1-1{
+    
+}
+

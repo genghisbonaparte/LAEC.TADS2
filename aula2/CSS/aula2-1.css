@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    background-color: red;
+}
+
+td {
+    background-color:gold;
+    text-align: center; 
+}
+
+

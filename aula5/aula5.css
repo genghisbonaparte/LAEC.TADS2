@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container {
+    border: 1px solid  blue;
+    width : 90%;
+    height: 600px;
+    background-color: green ;
+    margin: 0 auto;
+    overflow: hidden;
+    position:relative;
+}
+
+.container div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    margin:10px;
+    position: absolute;
+    border-radius: 10px; 
+
+}
+
+.box1 {
+    background: rgb(0, 999, 255);
+    left: 110px;
+    
+}
+.box2 {
+    background: rgb(0, 0, 100);
+    left:220px;
+
+
+}
+.box3 {
+    background: rgb(15, 0, 255);
+    left: 330px;
+}
+.box4 {
+    background: rgb(999, 0, 255);
+    left: 440px;
+
+}

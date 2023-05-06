@@ -1,0 +1,54 @@
+*{      
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+div {
+    border: 1px solid black;
+    width: 10rem;
+}
+
+.container {
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    gap: 2rem;
+}
+
+.container .box1{
+    height: 10rem;
+    width: 100vw;
+    background-color: rosybrown;
+}
+
+.container .box2{
+    height: 100%;
+    width: 35rem;
+    background-color: rosybrown;
+}
+
+.container .box3{
+    height: 300%;
+    width: 65rem;
+    background-color: rosybrown;
+}
+
+.container .box4{
+    height: 100%;
+    width: 29rem;
+    background-color: rosybrown;
+}
+.container .box3-1 {
+    height: 100%;
+    width: 65rem;
+    background-color: rosybrown;
+}
+

@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 5px solid tomato;
+    margin: 10px auto;
+    width: 80%;
+    display: grid;
+    height: 80vh;
+    /* grid-gap: ; (em desuso) */
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    /* grid-auto-rows: 400px; */
+}
+
+.item {
+    border: 3px solid blue;
+}
+
+/* .item-1 {
+    grid-column: 1 / 3;
+    /* grid-column-start: 1;
+    grid-column-end: 3;  é o que está dizendo ;-)}*/
+
+
+
+/* .item-4 {
+    grid-row: 2/4;
+    /* grid-row-start: 2;
+    grid-row-end: 4; }*/

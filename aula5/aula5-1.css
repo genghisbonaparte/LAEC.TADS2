@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.container {
+    border: 5px solid blue;
+        width: 1200px;
+        height: 600px;
+        margin: 0 auto;
+        position:absolute;
+
+}
+.container div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    margin: 10px;
+    position: absolute;
+}
+
+.box1 {
+    background: rgb(0, 999, 255);
+    left: 110px;
+
+}
+
+.box1 div{
+    width: 10px;
+    height: 10px;
+    position: relative;
+}
+
+.mini1 {
+    border-radius:10px
+}
+
+.mini2 {
+    left: 90px;
+}
+
+.mini3 {
+    right: 90px;
+    top: 90px;
+    border-radius: 10px
+}
+.mini4 {
+    left: 90px;
+    top: 90px;
+}
+
+.box2 {
+    background: rgb(0, 0, 100);
+    left: 220px;
+    
+
+
+}
+.box2 div {
+    width: 10px;
+    height: 10px;
+    position: relative;
+}
+.box3 {
+    background: rgb(15, 0, 255);
+    left: 330px;
+}
+.box3 div {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    
+    
+}
+
+
+.box4 {
+    background: rgb(999, 0, 255);
+    left: 440px;
+    
+}
+.box4 div {
+    width: 10px;
+    height: 10px;
+    position: relative; 
+}
