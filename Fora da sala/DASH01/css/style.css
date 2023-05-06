@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;800&display=swap');
+
+:root {
+    --bg-primary: #fff;
+    --bg-buttom: blue;
+    --bg-notify: #f23435;
+    --bg-shop: #f7f9fa;
+    --bg-sucess: #ccf0d0;
+    --shadow: #f0f0f0;
+    --icon-search: #fff;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppings';
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+div {
+    border: none;
+}
+
+/* i {
+    font-size: 3rem;
+} */
+.container {
+    margin: auto;
+    border: 2px solid tomato;
+    width: 80vw;
+    height: 100vh;
+    box-shadow: 1rem 1rem 2rem var(--shadow);
+    display: grid;
+    grid-template-rows: 5.1rem 11rem 1fr 6rem;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* header,section,main,footer {
+    border: 1px solid black;
+} */
+
+header { 
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    
+
+}
+
+header div {
+    /* border: 1px solid purple; */
+    box-shadow: 1rem 1rem 3rem var(--shadow);
+
+}
+
+header .hesq {
+    align-content: center;
+    padding-left: 5%;
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    align-items: center;
+    
+}
+
+header .hesq .company {
+    font-size: 1.5rem;
+    margin-left: 5%; 
+    color: blue;
+}
+
+header .hesq .input {
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: .5rem;
+    /* background-color: blue; */
+    width: 90%;
+    height: 100%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 90% 10%;
+
+}
+
+
+header .hesq .input input {
+    padding-top: .2rem;
+    border: none;
+    border-radius: 1rem;
+    height: 100%;
+}
+
+.container header .hesq .input i {
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    height: 3.25rem;
+    border-style: none;
+    background-color: blue;
+    padding-left: 1rem;
+    font-size: 3rem;
+    justify-content: center;
+    color: var(--icon-search);
+}
+
+header .hdir {
+    padding-left: 15rem;
+    display: grid;
+    grid-template-columns: 12rem 12rem 6rem ;
+}
+
+.container header .hdir i {
+    color: rgb(101, 101, 101);
+    border: 1px solid rgb(202, 202, 202);
+    padding: .8rem;
+    font-size: 3.3rem;
+    border-radius: 100%;
+    width: 5rem;
+    height: 5rem;
+    background-color: rgb(255, 255, 255);
+}
+
+header .hdir .register{
+    margin-right: 4rem;
+    font-size: 1.2rem;
+
+}
+
+section {
+    background-color: rgb(241, 241, 241);;
+    /* border: 1px solid black;     */
+    /* padding: 20% 10% 20%; */
+    font-size: 40px;
+    display: grid;
+    grid-template-rows: 3rem 4rem 4rem;
+}
+
+main {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: auto;
+
+}
+
+main div {
+    border-radius: 1%;
+    border: 1px solid aqua;
+}
